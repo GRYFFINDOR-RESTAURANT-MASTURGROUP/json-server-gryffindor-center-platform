@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "userCode": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "firstName": "John",
+      "lastName": "Doe",
+      "role": "CLIENTE"
+    },
+    {
+      "userCode": "4bde88e7-1e56-44b8-a5b5-1d71f6b9e3c4",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "role": "ADMIN"
+    }
+  ],
+  "reservations": [
+    {
+      "reservedId": 1,
+      "userCode": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "startDate": "2024-12-01T12:00:00.000Z",
+      "endDate": "2024-12-05T12:00:00.000Z",
+      "customerQuantity": 2,
+      "status": "PENDING"
+    }
+  ]
+}
